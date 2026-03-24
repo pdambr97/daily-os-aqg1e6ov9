@@ -21,6 +21,7 @@ export interface Habit {
   emoji: string
   color: string
   history: Record<string, boolean> // key: YYYY-MM-DD
+  frequencyPerWeek: number
 }
 
 export interface Goal {

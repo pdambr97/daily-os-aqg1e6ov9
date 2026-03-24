@@ -64,6 +64,7 @@ export const mockState: AppState = {
       name: 'Beber 2L de Água',
       emoji: '💧',
       color: '#10b981',
+      frequencyPerWeek: 7,
       history: { [today]: true, '2023-10-01': true, '2023-10-02': false },
     },
     {
@@ -71,6 +72,7 @@ export const mockState: AppState = {
       name: 'Meditação',
       emoji: '🧘',
       color: '#7c6fff',
+      frequencyPerWeek: 5,
       history: { [today]: false },
     },
     {
@@ -78,6 +80,7 @@ export const mockState: AppState = {
       name: 'Leitura',
       emoji: '📚',
       color: '#f0c040',
+      frequencyPerWeek: 3,
       history: { [today]: true },
     },
   ],
